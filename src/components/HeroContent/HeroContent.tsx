@@ -7,7 +7,7 @@ function HeroContent() {
   return (
     <div className='text-white pt-4 md:pt-8 text-center md:text-left'>
       {/* Hello text */}
-      <h2 className='text-2xl md:text-4xl text-[#F2C010] font-medium'>Hello, I'm</h2>
+      <h2 className='text-2xl md:text-4xl text-[#F2C010] font-medium'>Hello, I&apos;m</h2>
 
       {/* Name */}
       <h1 className='font-extrabold text-4xl [@media(min-width:500px)_and_(max-width:767px)]:text-5xl [@media(min-width:768px)_and_(max-width:1000px)]:text-6xl  [@media(min-width:1001px)]:text-7xl '>

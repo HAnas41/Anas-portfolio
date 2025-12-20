@@ -23,8 +23,8 @@ export default function StarBackground({
     const c = canvas.getContext('2d');
     if (!c) return;
 
-    let w = canvas.offsetWidth;
-    let h = canvas.offsetHeight;
+    const w = canvas.offsetWidth;
+    const  h = canvas.offsetHeight;
     let animationId: number;
 
     const setCanvasExtents = () => {
@@ -44,7 +44,7 @@ export default function StarBackground({
         z: Math.random() * 1000,
       }));
 
-    let stars = makeStars(totalStars);
+    const stars = makeStars(totalStars);
 
     const clear = () => {
       c.fillStyle = backgroundColor;

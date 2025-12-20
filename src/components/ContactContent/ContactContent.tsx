@@ -42,9 +42,9 @@ function ContactContent() {
         {/* Right Side - Info */}
         <div className="flex flex-col justify-center md:pl-16"> 
           <h3 className="text-2xl font-semibold mb-6">
-            Let's Chat. <br /> Tell me about your project
+            Let&apos;s Chat. <br /> Tell me about your project
           </h3>
-          <p className="text-[#9EA2AD] mb-6">Let’s create something together 🤘</p>
+          <p className="text-[#9EA2AD] mb-6">Let&apos;s create something together 🤘</p>
           
           <div className="space-y-6">
             {/* Email */}

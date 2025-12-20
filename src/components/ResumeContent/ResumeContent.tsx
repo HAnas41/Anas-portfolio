@@ -100,7 +100,7 @@ const ResumeContent: React.FC = () => {
             </h1>
 
             {/* Static Line */}
-            <div className="absolute left-2 top-22 bottom-18 w-[1px] bg-[#4A5261]"></div>
+            <div className="absolute left-[10px] top-22 bottom-18 w-[1px] bg-[#4A5261]"></div>
 
             {education.map((item, idx) => (
               <div key={idx} className="edu-item relative pl-8 mb-17">
@@ -129,7 +129,8 @@ const ResumeContent: React.FC = () => {
             {experience.map((item, idx) => (
               <div key={idx} className="exp-item relative pl-8 mb-14">
                 {/* Dot */}
-                <div className="absolute left-1 top-1 w-3 h-3 bg-[#101624] rounded-full border border-[#4A5261]"></div>
+                <div className="absolute right-[517px]
+                 top-1 w-3 h-3 bg-[#101624] rounded-full border border-[#4A5261]"></div>
 
                 {/* Content */}
                 <h2 className="text-xl font-semibold text-yellow-400 mb-2">

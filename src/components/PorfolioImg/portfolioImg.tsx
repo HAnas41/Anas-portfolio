@@ -31,8 +31,8 @@ function PortfolioImg() {
         toggleActions: "play none none reverse",
       },
       defaults: {
-        duration: 1,
-        ease: "power2.out", // consistent smooth easing
+        duration: 0.1,
+        ease: "power2.inOut", // consistent smooth easing
       },
     });
 
@@ -41,7 +41,7 @@ function PortfolioImg() {
       tl.fromTo(
         row1Ref.current.querySelectorAll(".project-card"),
         { y: 100, opacity: 0 },
-        { y: 0, opacity: 1, stagger: 0.1 },
+        { y: 0, opacity: 1, stagger: 0 },
         0 // timeline ke start par
       );
     }
@@ -51,8 +51,8 @@ function PortfolioImg() {
       tl.fromTo(
         row2Ref.current.querySelectorAll(".project-card"),
         { y: 100, opacity: 0 },
-        { y: 0, opacity: 1, stagger: 0.1 },
-        "+=0.4" // 0.4s delay after row1
+        { y: 0, opacity: 1, stagger: 0 },
+        "+=0.99" // 0.4s delay after row1
       );
     }
 

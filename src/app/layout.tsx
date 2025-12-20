@@ -6,8 +6,8 @@ import "./globals.css";
 const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700", "800"],
   subsets: ["latin"],
-  display: "swap",
-  variable: "--font-poppins", // this connects to Tailwind
+  // display: "swap",
+  // variable: "--font-poppins", // this connects to Tailwind
 });
 
 export const metadata: Metadata = {
@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       {/* ✅ Combine Poppins variable + Tailwind font-sans */}
       <body
-        className={`${poppins.variable} font-sans bg-[#001a33] text-white antialiased`}
+        className={`${poppins.className}  bg-[#001a33] text-white`}
       >
         {children}
       </body>

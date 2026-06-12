@@ -46,7 +46,7 @@ function AboutContent() {
 specializing in building AI-powered applications 
 using multi-agent systems and prompt engineering.
 <br />
-I built Talash — Pakistans first AI-powered 
+I built Talash — Pakistan&apos;s first AI-powered
 legal navigator — selected for Google AISeekho 
 2026 Regional Finals out of 605+ teams nationwide.
 <br />

@@ -37,15 +37,23 @@ function AboutContent() {
         Hello! I&apos;m Muhammad Anas
       </h1>
       <h2 className="text-lg sm:text-xl text-[#F2C010] font-semibold">
-        Front End Developer
+        AI & Full Stack Developer | Prompt Engineer
       </h2>
 
       {/* Description */}
       <p className="text-[#9EA2AD] leading-relaxed text-sm sm:text-base">
-        I am a Front-End Developer with expertise in building modern, responsive, and scalable web applications.
-        I specialize in React.js, Next.js, and Tailwind CSS, with a solid understanding of APIs and front-end best
-        practices. I focus on creating clean, efficient, and user-friendly interfaces that enhance the overall
-        user experience.
+       I am an AI Engineer and Full Stack Developer 
+specializing in building AI-powered applications 
+using multi-agent systems and prompt engineering.
+<br />
+I built Talash — Pakistan's first AI-powered 
+legal navigator — selected for Google AISeekho 
+2026 Regional Finals out of 605+ teams nationwide.
+<br />
+I work with Next.js, Python FastAPI, 
+and MongoDB, integrating AI tools like Claude, 
+Gemini API, and Google Antigravity to build 
+intelligent and scalable applications.
       </p>
 
       {/* Info Section */}

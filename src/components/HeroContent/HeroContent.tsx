@@ -20,7 +20,7 @@ function HeroContent() {
       {/* Typewriter text */}
       <p className='text-[23px] md:text-[30px] lg:text-[34px] mt-2'>
         <Typewriter
-          words={['NextJs Developer', 'Software Engineer']}
+          words={['AI Engineer', 'Software Engineer']}
           loop={true}
           cursor
           cursorStyle="|"

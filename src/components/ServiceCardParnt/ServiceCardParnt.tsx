@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import { FaLaptopCode } from "react-icons/fa";
-import { FaCode } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
+import { RiBrainLine } from "react-icons/ri";
+import { MdSmartToy } from "react-icons/md";
+import { BsChatDots } from "react-icons/bs";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ServiceCard from "../ServiceCard/ServiceCard";
@@ -44,10 +44,9 @@ function ServiceCardParent() {
       {/* Card 1 */}
       <div className="service-card">
         <ServiceCard
-          icon={<FaLaptopCode aria-hidden="true" />}
-          title="Custom Websites"
-          description="I build dynamic and user-friendly websites that deliver seamless user experiences 
-          and visually captivating animations, making each interaction smooth and engaging."
+          icon={<RiBrainLine aria-hidden="true" />}
+          title="AI-Powered Web Applications"
+          description="I build intelligent web applications powered by AI agents and multi-agent pipelines using Next.js, NestJS, Python FastAPI, and MongoDB."
           extraClass="ml-0 md:ml-23"
         />
       </div>
@@ -55,10 +54,9 @@ function ServiceCardParent() {
       {/* Card 2 */}
       <div className="service-card">
         <ServiceCard
-          icon={<FaCode aria-hidden="true" />}
-          title="Web Applications"
-          description="I specialize in creating Full Stack Websites using modern technologies like MERN Stack (MongoDB,
-          Express.js, React.js, and Node.js) and Next.js – a perfect combination."
+          icon={<MdSmartToy aria-hidden="true" />}
+          title="AI Agent Development"
+          description="I design and develop custom AI agent systems using Claude, Gemini API, and Google Antigravity for real-world automation and intelligent workflows."
           extraClass="ml-0 md:ml-5"
         />
       </div>
@@ -66,9 +64,9 @@ function ServiceCardParent() {
       {/* Card 3 */}
       <div className="service-card">
         <ServiceCard
-          icon={<FaLinkedin aria-hidden="true" />}
-          title="LinkedIn Profile Optimization"
-          description="I optimize LinkedIn profiles to highlight your professional strengths, creating a compelling and visually engaging profile that attracts recruiters and clients while boosting your online presence."
+          icon={<BsChatDots aria-hidden="true" />}
+          title="Prompt Engineering"
+          description="I craft optimized prompts and context engineering strategies for LLMs to maximize AI output quality and consistency."
           extraClass="ml-0 md:mr-20"
         />
       </div>

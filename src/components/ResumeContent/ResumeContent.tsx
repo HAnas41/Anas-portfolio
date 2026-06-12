@@ -24,18 +24,18 @@ const education = [
 
 const experience = [
   {
-    title: "Frontend Developer Intern (Next.js)",
-    duration: "Aug 2024 - Present",
-    place: "Aykays Agency",
+    title: "Top 50 — Phase 1 Winner",
+    duration: "2026",
+    place: "Google AISeekho Hackathon",
     description:
-      "Built and maintained responsive web apps with Next.js, creating reusable UI components, integrating APIs, and ensuring cross-browser compatibility to deliver user-friendly solutions.",
+      "Built Scholio — an AI-powered scholarship matching platform for Pakistan. Students enter academic profile and AI matches best scholarships with reasoning. Ranked Top 50 out of 10,000+ participants. Received official Google Gold Swag.",
   },
   {
-    title: "Next JS Developer",
-    duration: "Sep 2024 - Aug 2025",
-    place: "Personal project",
+    title: "Regional Finalist — Phase 2",
+    duration: "2026",
+    place: "Google AISeekho Hackathon",
     description:
-      "Built personal projects with Next.js, including an E-commerce platform and a Resume Builder. Gained hands-on experience in authentication, API integration, and state management while focusing on building scalable, responsive, and user-friendly applications.",
+      "Built Talash — Pakistan's first AI-powered legal navigator with 8 AI agents. Ranked Top 3 in first round out of 630+ submissions. Advanced to Regional Finals out of 605+ teams nationwide.",
   },
 ];
 

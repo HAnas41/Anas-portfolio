@@ -1,13 +1,13 @@
 "use client";
 import React, { useEffect, useRef } from "react";
+
 import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithub, FaGitAlt,
 } from "react-icons/fa";
 import {
-  SiRedux, SiTailwindcss, SiNextdotjs, SiCanva, SiPython,
-  SiFigma, SiNpm, SiYarn,
+  SiRedux, SiTailwindcss, SiNextdotjs, SiPython,
+  SiFigma, SiNpm, SiMongodb, SiNestjs, SiGooglegemini, SiOpenai
 } from "react-icons/si";
-import { VscJson } from "react-icons/vsc";
 import { HiCursorClick } from "react-icons/hi";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -73,18 +73,19 @@ function SkillIcons() {
     { icon: <SiTailwindcss className="text-[#06B6D4]" />, border: "border-[#06B6D4]" },
     { icon: <SiNextdotjs className="text-white" />, border: "border-white" },
     { icon: <SiPython className="text-[#3776AB]" />, border: "border-[#3776AB]" },
-    { icon: <VscJson className="text-[#007ACC]" />, border: "border-[#007ACC]" },
+    { icon: <SiMongodb className="text-[#47A248]" />, border: "border-[#47A248]" },
+    { icon: <SiNestjs className="text-[#E0234E]" />, border: "border-[#E0234E]" },
   ];
 
   // 🔸 Row 2 Icons
   const row2 = [
     { icon: <SiNpm className="text-[#CB3837]" />, border: "border-[#CB3837]" },
-    { icon: <SiYarn className="text-[#2C8EBB]" />, border: "border-[#2C8EBB]" },
     { icon: <SiFigma className="text-[#F24E1E]" />, border: "border-[#F24E1E]" },
     { icon: <HiCursorClick className="text-[#1F9CF0]" />, border: "border-[#1F9CF0]" },
     { icon: <FaGithub className="text-white" />, border: "border-white" },
     { icon: <FaGitAlt className="text-[#F05032]" />, border: "border-[#F05032]" },
-    { icon: <SiCanva className="text-[#00C4CC]" />, border: "border-[#00C4CC]" },
+    { icon: <SiOpenai className="text-white" />, border: "border-white" },
+    { icon: <SiGooglegemini className="text-[#4285F4]" />, border: "border-[#4285F4]" },
   ];
 
   return (

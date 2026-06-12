@@ -52,7 +52,7 @@ function FooterContent() {
 
       {/* Copyright */}
       <p className="mt-2 text-sm ">
-        © 2025 Muhammad Anas. All rights reserved.
+        © 2026 Muhammad Anas. All rights reserved.
       </p>
     </footer>
   );

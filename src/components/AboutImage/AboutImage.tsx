@@ -35,7 +35,7 @@ function AboutImage() {
     <div className="w-full md:w-1/2 lg:w-5/12 flex justify-center">
       <Image
         ref={imgRef}
-        src="/images/Mypic.jpeg"
+        src="/images/Pic.jpeg"
         alt="Profile Image"
         width={450}
         height={400}

@@ -25,7 +25,7 @@ function HeroImage() {
       className="relative w-60 h-60 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#F2C013] shadow-lg mx-auto md:mx-0"
     >
       <Image
-        src="/images/Mypic.jpeg"
+        src="/images/Mypic.png"
         alt="Muhammad Anas"
         fill
         className="object-cover"

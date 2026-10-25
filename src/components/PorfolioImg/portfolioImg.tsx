@@ -14,7 +14,7 @@ const projects = [
   },
   {
     title: "Scholio — AI Scholarship Finder",
-    url: "https://scholio.vercel.app/",
+    url: "https://scholio-weld.vercel.app/",
     description:
       "AI-powered scholarship matching platform. Top 50 out of 10,000+ participants.",
     badge: "Google AISeekho Top 50",

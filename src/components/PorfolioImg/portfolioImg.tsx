@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: "Warista — E-Commerce Platform",
-    url: "https://warista.vercel.app/",
+    url: "https://hackhathonui.vercel.app/",
     description: "Full stack e-commerce platform with modern UI.",
   },
   {

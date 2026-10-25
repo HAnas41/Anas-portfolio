@@ -14,14 +14,14 @@ const projects = [
   },
   {
     title: "Scholio — AI Scholarship Finder",
-    url: "https://scholio-776553617437.asia-south1.run.app/",
+    url: "https://scholio.vercel.app/",
     description:
       "AI-powered scholarship matching platform. Top 50 out of 10,000+ participants.",
     badge: "Google AISeekho Top 50",
   },
   {
     title: "Warista — E-Commerce Platform",
-    url: "https://finalthon.vercel.app/",
+    url: "https://warista.vercel.app/",
     description: "Full stack e-commerce platform with modern UI.",
   },
   {
